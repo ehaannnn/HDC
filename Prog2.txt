@@ -1,0 +1,17 @@
+
+byte ContinualDeclaration()
+{
+	int myInt; 
+	int myInt2;
+
+	return 1;
+}
+
+
+int main()
+{
+	byte arr[4];
+	arr[0,1].2 = 1;
+	ContinualDeclaration();
+	return arr[0];
+}

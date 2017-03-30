@@ -1,0 +1,22 @@
+
+int main() {
+    int flag;
+    byte it;
+    byte minVal = 255;
+    byte header[50];
+    header = createHeader(flag);
+    if(calculateChecksum(header)) {
+        return 0;
+    }
+    else {
+        return 1;
+    };
+
+    for (it in header[20:-1]) { 
+        if (it < minVal) {
+            minVal = it;
+        };
+    };
+
+    return 0;
+}

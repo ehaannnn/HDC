@@ -1,0 +1,16 @@
+// 안상원
+/* 이한결 */
+
+int main() {
+    int arr[10];
+    arr[0] = 1;
+    arr[1] = 1;
+    int i;
+    int a;
+    for (i = 2; i < 10; ++i) {
+	arr[i] = arr[i-1]+arr[i-2];
+	printi(arr[i]);
+    };
+
+    return 0;
+}

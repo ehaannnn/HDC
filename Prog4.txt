@@ -1,0 +1,11 @@
+/*	
+//	2016 PNU CSE Compiler	
+//	This Program is Sample To Demonstrate the AST
+*/
+
+int main()
+{
+	int a;	int b;
+
+	return 0;
+}

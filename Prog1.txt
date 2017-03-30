@@ -1,0 +1,18 @@
+int main() {	
+        int a;	int b;
+	if(a < b)
+	{
+		a = a + b;
+	}
+	else
+	{
+		b = a + b;
+	};
+
+	while(a > b)
+	{
+		a = a + 1;
+	};
+
+	return 1;
+}
